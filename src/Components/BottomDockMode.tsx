@@ -55,7 +55,7 @@ export default function BottomDockMode() {
         <div className={`fixed bottom-6 left-0 right-0 flex justify-center items-center z-50 transition-all duration-500 ease-[cubic-bezier(.2,.8,.2,1)] ${visible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0 pointer-events-none'}`}>
             <div className={`relative px-3 py-2 rounded-xl flex items-center gap-4 backdrop-blur-md transition-colors duration-200 ${dockStyles}`}>
                 {/* GitHub */}
-                <a href="https://github.com/SAYOUNCDR" target="_blank" className="group relative flex">
+                <a href="https://github.com/vasu-devs" target="_blank" className="group relative flex">
                     <FaGithub className={`${iconColor} text-xl`} />
                     <span className={`absolute bottom-[30px] left-1/2 -translate-x-1/2 w-max font-medium text-sm rounded-md py-1 px-1.5 scale-0 group-hover:scale-100 transition ${tooltipStyles}`}>
                         GitHub
@@ -63,7 +63,7 @@ export default function BottomDockMode() {
                 </a>
 
                 {/* Twitter (X) */}
-                <a href="https://x.com/DriftNBlde" target="_blank" className="group relative flex">
+                <a href="https://x.com/Vasu_Devs" target="_blank" className="group relative flex">
                     <FaXTwitter className={`${iconColor} text-xl`} />
                     <span className={`absolute bottom-[30px] left-1/2 -translate-x-1/2 w-max font-medium text-sm rounded-md py-1 px-1.5 scale-0 group-hover:scale-100 transition ${tooltipStyles}`}>
                         Twitter
@@ -71,7 +71,7 @@ export default function BottomDockMode() {
                 </a>
 
                 {/* LinkedIn */}
-                <a href="https://www.linkedin.com/in/sayoun-parui-868b4228b/" target="_blank" className="group relative flex">
+                <a href="https://www.linkedin.com/in/vasu-devs/" target="_blank" className="group relative flex">
                     <FaLinkedin className={`${iconColor} text-xl`} />
                     <span className={`absolute bottom-[30px] left-1/2 -translate-x-1/2 w-max font-medium text-sm rounded-md py-1 px-1.5 scale-0 group-hover:scale-100 transition ${tooltipStyles}`}>
                         LinkedIn

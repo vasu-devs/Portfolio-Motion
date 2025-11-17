@@ -45,7 +45,7 @@ export default function BottomDock() {
         <div className={`fixed bottom-6 left-0 right-0 flex justify-center items-center z-50 transition-all duration-500 ease-[cubic-bezier(.2,.8,.2,1)] ${visible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0 pointer-events-none'}`}>
             <div className="relative bg-black/30 border border-zinc-700 px-3 py-2 rounded-xl flex items-center gap-4 backdrop-blur-md">
                 {/* GitHub */}
-                <a href="https://github.com/SAYOUNCDR" target="_blank" className="group relative flex">
+                <a href="https://github.com/vasu-devs" target="_blank" className="group relative flex">
                     <FaGithub className="text-white text-xl" />
                     <span className="absolute bottom-[30px] left-1/2 -translate-x-1/2 w-max bg-white text-black font-medium text-sm rounded-md py-1 px-1.5 scale-0 group-hover:scale-100 transition">
                         GitHub
@@ -53,7 +53,7 @@ export default function BottomDock() {
                 </a>
 
                 {/* Twitter (X) */}
-                <a href="https://x.com/DriftNBlde" target="_blank" className="group relative flex">
+                <a href="https://x.com/Vasu_Devs" target="_blank" className="group relative flex">
                     <FaXTwitter className="text-white text-xl" />
                     <span className="absolute bottom-[30px] left-1/2 -translate-x-1/2 w-max bg-white text-black font-medium text-sm rounded-md py-1 px-1.5 scale-0 group-hover:scale-100 transition">
                         Twitter
@@ -61,7 +61,7 @@ export default function BottomDock() {
                 </a>
 
                 {/* LinkedIn */}
-                <a href="https://www.linkedin.com/in/sayoun-parui-868b4228b/" target="_blank" className="group relative flex">
+                <a href="https://www.linkedin.com/in/vasu-devs/" target="_blank" className="group relative flex">
                     <FaLinkedin className="text-white text-xl" />
                     <span className="absolute bottom-[30px] left-1/2 -translate-x-1/2 w-max bg-white text-black font-medium text-sm rounded-md py-1 px-1.5 scale-0 group-hover:scale-100 transition">
                         LinkedIn

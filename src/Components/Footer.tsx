@@ -72,7 +72,7 @@ export default function Footer() {
                         <span className={`relative transition-colors duration-300 ${pillHover}`}>Built with focus, curiosity & far too much caffeine</span>
                     </div>
                     <h3 className={`text-xl font-semibold tracking-tight ${headingColor}`}>
-                        Sayoun
+                        Vasu-Devs
                     </h3>
                     <p className={`text-sm leading-relaxed max-w-xl mx-auto ${subtextColor}`}>
                         Crafting smooth, accessible interfaces & micro–interactions. Shipping ideas fast, polishing the details slower. Always learning.
@@ -84,9 +84,9 @@ export default function Footer() {
                 {/* Meta */}
                 <div className={`flex flex-col items-center gap-2 text-[11px] ${metaText}`}>
                     <p>
-                        © {new Date().getFullYear()} <span className={theme === "dark" ? "text-zinc-300" : "text-slate-700"}>Sayoun Parui</span>. Source on{' '}
+                        © {new Date().getFullYear()} <span className={theme === "dark" ? "text-zinc-300" : "text-slate-700"}>Vasu-Devs</span>. Source on{' '}
                         <a
-                            href="https://github.com/SAYOUNCDR/Portfolio-Motion"
+                            href="https://github.com/vasu-devs/Portfolio-Motion"
                             target="_blank"
                             rel="noreferrer"
                             className={`underline decoration-dotted ${metaLink}`}

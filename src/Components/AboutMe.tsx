@@ -73,7 +73,7 @@ export default function AboutMe() {
                     <div className="w-40 h-40 rounded-lg overflow-hidden relative">
                         <img
                             src="images/Profile.jpg"
-                            alt="Sayoun"
+                            alt="Vasu-Devs"
                             className="w-full h-full object-cover"
                         />
                     </div>
@@ -89,7 +89,7 @@ export default function AboutMe() {
                 <div className="relative md:w-2/3 pt-4 md:pl-2 flex flex-col items-center md:items-start justify-center text-center md:text-left">
                     {/* Header */}
                     <div className="flex w-full flex-col gap-2 items-center md:flex-row md:items-center md:gap-3 mb-3">
-                        <h1 className={`text-2xl font-bold ${headingColor}`}>Sayoun ⚡</h1>
+                        <h1 className={`text-2xl font-bold ${headingColor}`}>Vasu-Devs ⚡</h1>
                         <LiveViewCounter className="md:ml-auto" />
                     </div>
 
@@ -98,18 +98,18 @@ export default function AboutMe() {
                     <div className="flex flex-wrap gap-3 my-3">
                         <SocialIcon
                             icon={<SiLeetcode />}
-                            username="sayoun_parui"
-                            link="https://leetcode.com/u/Sayoun_parui/"
+                            username="Vasu-Devs"
+                            link="#"
                         />
                         <SocialIcon
                             icon={<SiCodeforces />}
-                            username="sayounfalut"
-                            link="https://codeforces.com/profile/sayounfalut"
+                            username="Vasu-Devs"
+                            link="#"
                         />
                         <SocialIcon
                             icon={<SiGithub />}
-                            username="SAYOUNCDR"
-                            link="https://github.com/SAYOUNCDR"
+                            username="vasu-devs"
+                            link="https://github.com/vasu-devs"
                         />
                         <SocialIcon
                             icon={<SiBuymeacoffee />}
@@ -122,7 +122,7 @@ export default function AboutMe() {
                     <div className="flex flex-wrap gap-5 pl-[2px]">
                         {/* Resume/CV Button */}
                         <a
-                            href="https://drive.google.com/file/d/1zrMACd70KzK-4lpzZAQw4eLbM4f2ovZG/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1Gjj1KTOtB9FK9AUCqpfASyyg2q1SH5k_/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={`flex items-center border border-dashed rounded-lg px-4 py-2 font-medium text-xs gap-2 shadow transition focus:outline-none whitespace-nowrap ${resumeButton}`}
@@ -134,7 +134,7 @@ export default function AboutMe() {
                         {/* Mail Button */}
                         <div className="relative">
                             <a
-                                href="mailto:0xsyn.dev@gmail.com"
+                                href="mailto:siddhvasudev1402@gmail.com"
                                 onMouseEnter={() => setShowTooltip(true)}
                                 onMouseLeave={() => setShowTooltip(false)}
                                 target="_blank"
@@ -153,7 +153,7 @@ export default function AboutMe() {
                                     transition={{ type: "spring", stiffness: 300, damping: 25 }}
                                     className={`absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 text-xs rounded whitespace-nowrap z-10 ${tooltipStyles}`}
                                 >
-                                    0xsyn.dev@gmail.com
+                                    siddhvasudev1402@gmail.com
                                 </motion.div>
                             )}
 

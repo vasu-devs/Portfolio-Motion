@@ -35,7 +35,7 @@ const projects: Project[] = [
         },
         tags: ["JavaScript", "PHP", "MySQL", "XAMPP", "Tailwind CSS"],
         website: { label: "Website", url: "" },
-        github: { label: "GitHub", url: "https://github.com/SAYOUNCDR/InternalSIH25" },
+        github: { label: "GitHub", url: "https://github.com/vasu-devs/InternalSIH25" },
     },
     {
         title: "PolySee",
@@ -52,7 +52,7 @@ const projects: Project[] = [
         },
         tags: ["React.js", "JavaScript", "Framer Motion", "Tailwind CSS", "Python", "Langchain", "VectorDB", "Pypdf2", "OpenAI API"],
         website: { label: "Website", url: "" },
-        github: { label: "GitHub", url: "https://github.com/SAYOUNCDR/InternalSIH25" },
+        github: { label: "GitHub", url: "https://github.com/vasu-devs/InternalSIH25" },
     },
     {
         title: "NyaySaathi",
@@ -69,7 +69,7 @@ const projects: Project[] = [
         },
         tags: ["React.js", "JavaScript", "Framer Motion", "Tailwind CSS", "Python", "Langchain", "Docker", "redis", "OpenAI API"],
         website: { label: "Website", url: "" },
-        github: { label: "GitHub", url: "https://github.com/SAYOUNCDR/InternalSIH25" },
+        github: { label: "GitHub", url: "https://github.com/vasu-devs/InternalSIH25" },
     },
 
 ];
